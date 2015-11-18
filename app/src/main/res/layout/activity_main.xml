@@ -1,0 +1,90 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:tools="http://schemas.android.com/tools"
+                android:background="@color/background"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:paddingLeft="@dimen/activity_horizontal_margin"
+                android:paddingRight="@dimen/activity_horizontal_margin"
+                android:paddingTop="@dimen/activity_vertical_margin"
+                android:paddingBottom="@dimen/activity_vertical_margin"
+                tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/title"
+        android:id="@+id/title"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:textSize="@dimen/title_size"
+        android:textColor="@color/title"/>
+
+    <Button
+        android:layout_width="@dimen/button_width"
+        android:layout_height="wrap_content"
+        android:text="@string/project1"
+        android:id="@+id/project1"
+        android:layout_below="@+id/title"
+        android:layout_centerHorizontal="true"
+        android:onClick="project1"
+        android:background="@color/button_color"
+        android:layout_marginTop="@dimen/margin_above_button"
+        android:layout_marginBottom="@dimen/margin_below_button"
+        />
+
+    <Button
+        android:layout_width="@dimen/button_width"
+        android:layout_height="wrap_content"
+        android:text="@string/project2"
+        android:id="@+id/project2"
+        android:layout_below="@+id/project1"
+        android:layout_centerHorizontal="true"
+        android:onClick="project2"
+        android:background="@color/button_color"
+        android:layout_marginBottom="@dimen/margin_below_button"/>
+
+    <Button
+        android:layout_width="@dimen/button_width"
+        android:layout_height="wrap_content"
+        android:text="@string/project3"
+        android:id="@+id/project3"
+        android:layout_below="@+id/project2"
+        android:layout_centerHorizontal="true"
+        android:onClick="project3"
+        android:background="@color/button_color"
+        android:layout_marginBottom="@dimen/margin_below_button"/>
+
+    <Button
+        android:layout_width="@dimen/button_width"
+        android:layout_height="wrap_content"
+        android:text="@string/project4"
+        android:id="@+id/project4"
+        android:layout_below="@+id/project3"
+        android:layout_centerHorizontal="true"
+        android:onClick="project4"
+        android:background="@color/button_color"
+        android:layout_marginBottom="@dimen/margin_below_button"/>
+
+    <Button
+        android:layout_width="@dimen/button_width"
+        android:layout_height="wrap_content"
+        android:text="@string/project5"
+        android:id="@+id/project5"
+        android:layout_below="@+id/project4"
+        android:layout_centerHorizontal="true"
+        android:onClick="project5"
+        android:background="@color/button_color"
+        android:layout_marginBottom="@dimen/margin_below_button"/>
+
+    <Button
+        android:layout_width="@dimen/button_width"
+        android:layout_height="wrap_content"
+        android:text="@string/project6"
+        android:id="@+id/project6"
+        android:layout_below="@+id/project5"
+        android:layout_centerHorizontal="true"
+        android:onClick="project6"
+        android:background="@color/last_button_color"
+        android:textColor="@android:color/white"
+        android:layout_marginBottom="@dimen/margin_below_button"/>
+</RelativeLayout>
